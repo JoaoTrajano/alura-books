@@ -7,5 +7,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log('Servidor rodando na porta 8000');
+  console.log(`Servidor rodando na rota http://localhost:${port}`);
 });
